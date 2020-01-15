@@ -1,3 +1,5 @@
+
+
 import 'package:flutter_news_api/model/newsArticle.dart';
 
 class NewsArticleViewModel {
@@ -20,6 +22,9 @@ class NewsArticleViewModel {
 
   String get url {
     return _newsArticle.url;
+  }
+  String get source {
+    return _newsArticle.source;
   }
 
 }
