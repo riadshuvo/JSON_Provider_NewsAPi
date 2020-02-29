@@ -1,5 +1,3 @@
-
-
 import 'package:flutter_news_api/model/newsArticle.dart';
 
 class NewsArticleViewModel {
